@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2502624171172525971
+--- !u!114 &-1738966574581432929
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,15 +20,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Glass
-  m_Shader: {fileID: -6465566751694194690, guid: 9285780064709f64593db7c8ab0f6b0d,
+  m_Name: FresnelGlow
+  m_Shader: {fileID: -6465566751694194690, guid: d7afd4201e8d2054aa0baa5c445ab8b2,
     type: 3}
-  m_Parent: {fileID: -876546973899608171, guid: 9285780064709f64593db7c8ab0f6b0d,
-    type: 3}
+  m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -37,11 +36,30 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 0.688
+    - _BottomLine: 0.904
+    - _Metallic: 1
     - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Smoothness: 0.5
+    - _TopLine: 0.641
     m_Colors:
-    - _Base_Color: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 0.4392157}
+    - _BaseColor: {r: 0, g: 0.25284195, b: 1, a: 0}
+    - _BottomColor: {r: 1, g: 0, b: 0.88658094, a: 0}
+    - _BottomColor_1: {r: 0.9936657, g: 0, b: 1, a: 0}
+    - _TopColor: {r: 0, g: 0.94569826, b: 1, a: 0}
   m_BuildTextureStacks: []
