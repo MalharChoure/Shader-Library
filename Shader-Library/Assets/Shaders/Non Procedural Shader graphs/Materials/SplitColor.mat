@@ -53,8 +53,8 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SplitFill: 0.52
+    - _SplitFill: 0.5
     m_Colors:
-    - _LowerColor: {r: 1, g: 0, b: 0, a: 0}
-    - _UpperColor: {r: 0.32003558, g: 1, b: 0, a: 0}
+    - _LowerColor: {r: 1, g: 0, b: 0.96235275, a: 0}
+    - _UpperColor: {r: 0.4753623, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
