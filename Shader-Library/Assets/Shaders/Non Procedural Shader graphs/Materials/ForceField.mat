@@ -51,8 +51,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ForceFieldDepth: 7.84
-    - _ForcefieldHeight: 83.08
+    - _ForceFieldDepth: 5.31
+    - _ForcefieldHeight: 80.76
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:

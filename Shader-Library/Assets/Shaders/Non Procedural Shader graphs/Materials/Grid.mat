@@ -53,9 +53,9 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _TimeScale: 0.95
+    - _TimeScale: 0.65
     m_Colors:
     - _SecondTiling: {r: 5, g: 5, b: 0, a: 0}
-    - _TileColor: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 0}
-    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _TileColor: {r: 0.016426025, g: 0.0047169924, b: 1, a: 0}
+    - _Tiling: {r: 5, g: 5, b: 0, a: 0}
   m_BuildTextureStacks: []
