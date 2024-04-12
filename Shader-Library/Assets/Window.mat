@@ -42,7 +42,7 @@ Material:
     - _B: 1
     - _Line_Alpha: 0.4
     - _Line_Width: 0.5
-    - _Offset: 0.2
+    - _Offset: 0.76
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Scale_Multiplier: 0.7
