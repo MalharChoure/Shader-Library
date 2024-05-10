@@ -12,7 +12,9 @@ Material:
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _COLOR_STYLE_GRADIENT
+  - _SPACE_WORLD_SPACE
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -42,10 +44,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Height: 1.06
+    - _COLOR_STYLE: 1
+    - _Gradient: 0
+    - _Height: 1.5
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _SPACE: 1
+    - _ScaleOfNoise: 7.62
+    - _TimeScale: 1
+    - _World_Space: 0
     m_Colors:
+    - _Gradient_Lower_Color: {r: 0.88467693, g: 0, b: 1, a: 0}
+    - _Gradient_Upper_Color: {r: 0, g: 0.5988002, b: 1, a: 0}
+    - _Solid_Color: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
     - _Vector4: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8727827489135262492
