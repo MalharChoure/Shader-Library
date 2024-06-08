@@ -40,7 +40,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Strength: 0.27
+    - _Strength: 0.4
     - _Tiling: 5.77
     m_Colors: []
   m_BuildTextureStacks: []
